@@ -1,4 +1,5 @@
 import { Banner } from './components/Banner/container';
+import { Header } from './components/Header/container';
 import { Row } from './components/Row/container';
 import { requests } from './utils/request';
 import './app.css';
@@ -6,6 +7,7 @@ import './app.css';
 function App() {
   return (
     <div className="App">
+      <Header />
       <Banner />
       <Row
         title="NETFLIX ORIGUINALS"
